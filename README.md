@@ -42,3 +42,8 @@ Results will be saved in OUTPUT_DF.csv
 
 
 ### Example/Test
+
+#### RSV F example
+Copy all required files into a directory (Files: CRISPro_v.1.1-1.R, rama8000-transpro.data, mutate.py, 4jhw_trimer.pdb, and 3rrr_trimer.pdb)
+
+R --vanilla < 
