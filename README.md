@@ -39,12 +39,50 @@ R --vanilla < CRISPro_v.1.1-1.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py
 
 ### Result
 - Results will be saved in OUTPUT_DF.csv
-- Explanation if Results
-  - Option 1: 
-  - Option 2:
-  - Option 3: Columns include: 
-    - Chain
-    - Residue number, Amino acid, Phi angle, Psi angle, Trans proline angle, Helix (0,1
+- Explanation of Results
+  - Option 1 columns include:
+    - Residue number
+    - Chain of target conformation
+    - Amino acid of target conformation
+    - Phi angle of target conformation
+    - Psi angle of target conformation
+    - Trans proline angle of target conformation
+    - Helix of target conformation
+    - DSSP secondary structure prediction of target conformation
+    - Number of clashes of target conformation
+    - Chain of alternative conformation
+    - Amino acid of alternative conformation
+    - Phi angle of alternative conformation
+    - Psi angle of alternative conformation
+    - Trans proline angle of alternative conformation
+    - Helix of alternative conformation
+    - DSSP secondary structure prediction of alternative conformation
+    - Number of clashes of alternative conformation
+    - Compatible with target conformation
+    - Compatible with alternative conformation
+    - Compatible with target and not with alternative conformation
+  - Option 2 columns include:
+    - Chain of target conformation
+    - Residue number of target conformation
+    - Amino acid of target conformation
+    - Phi angle of target conformation
+    - Psi angle of target conformation
+    - Trans proline angle of target conformation
+    - Helix of target conformation
+    - DSSP secondary structure prediction of target conformation
+    - Number of clashes of target conformation
+    - Compatible with target conformation
+  - Option 3 columns include: 
+    - Chain of alternative conformation
+    - Residue number of alternative conformation
+    - Amino acid of alternative conformation
+    - Phi angle of alternative conformation
+    - Psi angle of alternative conformation
+    - Trans proline angle of alternative conformation
+    - Helix of alternative conformation
+    - DSSP secondary structure prediction of alternative conformation
+    - Number of clashes of alternative conformation
+    - Compatible with alternative conformation
 
 
 ### Example/Test
