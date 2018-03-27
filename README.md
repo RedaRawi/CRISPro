@@ -27,18 +27,24 @@ Several input arguments are necessary to run the CRISPro.
   6.  Path to PyMOL script that mutates positions
   7.  Output prefix, for instance "OUTPUT"
   8.  Option (either 1, 2, or 3)
-  9.  PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html) (Option 1 and 2)
+  9.  PDB file of target conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html) (Option 1 and 2)
   10. Chain within PDB file of desired conformation (Option 1 and 2)
   11. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html) (Option 1 and 3)
   12. Chain within PDB file of alternative conformation (Option 1 and 3)
 
 
 ### Execute in the command line
-R --vanilla < CRISPro_v.1.1-1.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py OUTPUT 1 desired.pdb A alternative.pdb A
+R --vanilla < CRISPro_v.1.1-1.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py OUTPUT 1 target.pdb A alternative.pdb A
 
 
 ### Result
-Results will be saved in OUTPUT_DF.csv
+- Results will be saved in OUTPUT_DF.csv
+- Explanation if Results
+  - Option 1: 
+  - Option 2:
+  - Option 3: Columns include: 
+    - Chain
+    - Residue number, Amino acid, Phi angle, Psi angle, Trans proline angle, Helix (0,1
 
 
 ### Example/Test
