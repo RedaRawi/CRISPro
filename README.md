@@ -34,4 +34,11 @@ Several input arguments are necessary to run the CRISPro.
 
 
 # Execute in the command line
+R --vanilla < CRISPro_v.1.1-1.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py OUTPUT 1 desired.pdb A alternative.pdb A
 
+
+# Result
+Results will be saved in OUTPUT_DF.csv
+
+
+# Example/Test
