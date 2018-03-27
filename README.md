@@ -19,16 +19,26 @@ Recent studies have shown that the yield, antigenicity, and immunogenicity of an
 CRISPro can be run in the command line
 
 Several input arguments are necessary to run the CRISPro.
-  1.  PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
-  2.  Chain within PDB file of desired conformation
-  3.  PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
-  4.  Chain within PDB file of alternative conformation
-  5.  Output prefix, for instance "OUTPUT"
-  6.  Path to file containing trans-proline phi-psi angles
-  7.  Path to PyMOL script that mutates positions
-  8.  Overlap cutoff, if not provided default of 1.5 is used
-  9.  Distance cutoff, if not provided default of 10 is used
-  10. Number of cores, if not provided default of 1 is used
+  1.  Overlap cutoff, 1.5 is recommended
+  2.  Distance cutoff, 10 is recommended
+  3.  Phi-Psi cutoff, 0.0005 is recommended
+  4.  Number of cores
+  5.  Path to file containing trans-proline phi-psi angles
+  6.  Path to PyMOL script that mutates positions
+  7.  Output prefix, for instance "OUTPUT"
+  8.  Option
+      Option 1: Desired and alternative conformation input
+           9. PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+          10. Chain within PDB file of desired conformation
+          11. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+          12. Chain within PDB file of alternative conformation
+      Option 2: Desired conformation input only
+           9. PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+          10. Chain within PDB file of desired conformation
+      Option 3: Alternative conformation input only
+           9. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+          10. Chain within PDB file of alternative conformation
+          
   
 # Execute in the command line
 
