@@ -12,7 +12,7 @@ Recent studies have shown that the yield, antigenicity, and immunogenicity of an
     - bio3d
     - foreach
     - doParallel
-- PyMOL (version 1.7.2.1) (HTML LINK
+- PyMOL (version 1.7.2.1) (https://sourceforge.net/projects/pymol/files/pymol/1.7/)
 - DSSP command-line version (http://swift.cmbi.ru.nl/gv/dssp/)
 
 ## Run 
