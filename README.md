@@ -26,18 +26,11 @@ Several input arguments are necessary to run the CRISPro.
   5.  Path to file containing trans-proline phi-psi angles
   6.  Path to PyMOL script that mutates positions
   7.  Output prefix, for instance "OUTPUT"
-  8.  Option
-  Option 1: Desired and alternative conformation input
-           9. PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
-          10. Chain within PDB file of desired conformation
-          11. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
-          12. Chain within PDB file of alternative conformation
-  Option 2: Desired conformation input only
-           9. PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
-          10. Chain within PDB file of desired conformation
-  Option 3: Alternative conformation input only
-           9. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
-           10. Chain within PDB file of alternative conformation
+  8.  Option (either 1, 2, or 3)
+  9. PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+  10. Chain within PDB file of desired conformation
+  11. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+  12. Chain within PDB file of alternative conformation
           
   
 # Execute in the command line
