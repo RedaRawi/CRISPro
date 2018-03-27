@@ -1,4 +1,4 @@
-### CRISPro
+# CRISPro
 An Automated Pipeline for Protein Conformation Stabilization by Proline
 
 ## Motivation
@@ -6,7 +6,7 @@ Recent studies have shown that the yield, antigenicity, and immunogenicity of an
 
 ## Installation
 
-# Requirements
+### Requirements
 - R (https://www.r-project.org)
   - R libraries
     - bio3d
@@ -15,7 +15,7 @@ Recent studies have shown that the yield, antigenicity, and immunogenicity of an
 - PyMOL (version 1.7.2.1) (HTML LINK
 - DSSP command-line version (http://swift.cmbi.ru.nl/gv/dssp/)
 
-# Run 
+## Run 
 CRISPro can be run in the command line
 
 Several input arguments are necessary to run the CRISPro.
@@ -33,12 +33,12 @@ Several input arguments are necessary to run the CRISPro.
   12. Chain within PDB file of alternative conformation (Option 1 and 3)
 
 
-# Execute in the command line
+### Execute in the command line
 R --vanilla < CRISPro_v.1.1-1.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py OUTPUT 1 desired.pdb A alternative.pdb A
 
 
-# Result
+### Result
 Results will be saved in OUTPUT_DF.csv
 
 
-# Example/Test
+### Example/Test
