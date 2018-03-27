@@ -35,8 +35,10 @@ Several input arguments are necessary to run the CRISPro.
   - Option 2
     - 9.  PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
     - 10. Chain within PDB file of desired conformation
-     
-          
-  
+  - Option 3
+    - 11. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+    - 12. Chain within PDB file of alternative conformation
+
+
 # Execute in the command line
 
