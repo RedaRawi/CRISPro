@@ -27,10 +27,15 @@ Several input arguments are necessary to run the CRISPro.
   6.  Path to PyMOL script that mutates positions
   7.  Output prefix, for instance "OUTPUT"
   8.  Option (either 1, 2, or 3)
-  9. PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
-  10. Chain within PDB file of desired conformation
-  11. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
-  12. Chain within PDB file of alternative conformation
+  - Option 1
+    - 9.  PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+    - 10. Chain within PDB file of desired conformation
+    - 11. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+    - 12. Chain within PDB file of alternative conformation
+  - Option 2
+    - 9.  PDB file of desired conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html)
+    - 10. Chain within PDB file of desired conformation
+     
           
   
 # Execute in the command line
