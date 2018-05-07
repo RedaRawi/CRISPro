@@ -93,3 +93,6 @@ Copy all required files into a directory (Files: CRISPro_v.1.1-2.R, rama8000-tra
 - Option 1: R --vanilla < CRISPro_v.1.1-2.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py RSV_F_option-1 1 4jhw_trimer.pdb A 3rrr_trimer.pdb A
 - Option 2: R --vanilla < CRISPro_v.1.1-2.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py RSV_F_option-2 2 4jhw_trimer.pdb A 
 - Option 3: R --vanilla < CRISPro_v.1.1-2.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py RSV_F_option-3 3 3rrr_trimer.pdb A
+
+# Contact
+Reda Rawi: reda.rawi@nih.gov
