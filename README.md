@@ -8,14 +8,20 @@ Recent studies have shown that the yield, antigenicity, and immunogenicity of an
 CRISPro has been successfully tested on Ubuntu 16.04.4 LTS and ...
 
 ### Environment
-CRISPro is best installed in CONDA environment 
-- R (https://www.r-project.org)
-  - R libraries
-    - bio3d
-    - foreach
-    - doParallel
-- PyMOL (version 1.7.2.1) (https://sourceforge.net/projects/pymol/files/pymol/1.7/)
-- DSSP command-line version (http://swift.cmbi.ru.nl/gv/dssp/)
+CRISPro is best installed in CONDA environment using the following procedure:
+
+- Download and install conda environment for 64-bit linux (https://conda.io/miniconda.html) using Python 3.6
+  - Download: Miniconda3-latest-Linux-x86_64.sh file
+  - Install in command line: ./Miniconda3-latest-Linux-x86_64.sh
+- Create CRISPro environment in command line: conda create --name CRISPro
+- Activate CRISPro environment in command line: source activate CRISPro
+- Install require packages by running the following in command line:
+  - conda install -c r r r=3.4.1
+  - conda install -c bioconda r-bio3d
+  - conda install -c r r-foreach
+  - conda install -c r r-doparallel
+  - conda install -c salilab dssp
+  - conda install -c samoturk pymol
 
 ## Run 
 CRISPro can be run in the command line
