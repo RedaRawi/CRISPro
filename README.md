@@ -13,7 +13,7 @@ CRISPro is best installed in CONDA environment using the following procedure:
 - Download and install conda environment for 64-bit linux (https://conda.io/miniconda.html) using Python 2.7
   - Download: Miniconda2-latest-Linux-x86_64.sh
   - Install in command line: ./Miniconda2-latest-Linux-x86_64.sh
-  - Source your bash with: source ~/.bashrc
+  - Open a new terminal window or source your bash with: source ~/.bashrc
 - Create CRISPro environment in command line: conda create --name CRISPro
 - Activate CRISPro environment in command line: source activate CRISPro
 - Install require packages by running the following in command line:
