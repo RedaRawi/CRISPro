@@ -5,7 +5,7 @@ An Automated Pipeline for Protein Conformation Stabilization by Proline
 Recent studies have shown that the yield, antigenicity, and immunogenicity of an immunogen can be enhanced by stabilizing it into a specific conformation. Such stabilization often involves the engineering of proline mutations at residue positions where a proline is structurally compatible with the target conformation, but not with the alternative conformation. However, there is no publicly available tool that can design proline mutations for this purpose automatically. Here, we implemented an automated tool, CRISP, that inputs structural coordinates of a target conformation and/or an alternative conformation, and outputs a list of residue positions where proline mutations are predicted to stabilize the target conformation based on compatibility of phi-psi angles, secondary structure, and steric clashes. Thus, CRISP can be used to engineer immunogens into specific conformation and to design serologic probes, capable of isolating antibodies that recognize a target shape.
 
 ## Installation
-CRISPro has been successfully tested on Ubuntu 16.04.4 LTS and ...
+CRISPro has been successfully tested on Linux systems
 
 ### Environment
 CRISPro is best installed in CONDA environment using the following procedure:
