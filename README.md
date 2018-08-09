@@ -13,6 +13,7 @@ CRISPro is best installed in CONDA environment using the following procedure:
 - Download and install conda environment for 64-bit linux (https://conda.io/miniconda.html) using Python 2.7
   - Download: Miniconda2-latest-Linux-x86_64.sh
   - Install in command line: ./Miniconda2-latest-Linux-x86_64.sh
+    (Add conda path to ~/.bashrc)
   - Open a new terminal window or source your bash with: source ~/.bashrc
 - Create CRISPro environment in command line: conda create --name CRISPro
 - Activate CRISPro environment in command line: source activate CRISPro
@@ -70,7 +71,7 @@ R --vanilla < CRISPro_v.1.1-2.R 1.5 10 0.0005 8 rama8000-transpro.data mutate.py
     - Compatible with target conformation
     - Compatible with alternative conformation
     - Compatible with target and not with alternative conformation
-  - Option 2 (with targe conformation input only) columns include:
+  - Option 2 (with target conformation input only) columns include:
     - Chain in target conformation
     - Residue number in target conformation
     - Amino acid in target conformation
