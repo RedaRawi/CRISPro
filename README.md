@@ -30,17 +30,16 @@ CRISPro can be run in the command line
 
 Several input arguments are necessary to run the CRISPro.
   1.  Overlap cutoff, 1.5 is recommended
-  2.  Distance cutoff, 10 is recommended
-  3.  Phi-Psi cutoff, 0.01 is recommended
-  4.  Number of cores
-  5.  Path to file containing trans-proline phi-psi angles
-  6.  Path to PyMOL script that mutates positions
-  7.  Output prefix, for instance "OUTPUT"
-  8.  Option (either 1, 2, or 3)
-  9.  PDB file of target conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html) (Option 1 and 2)
-  10. Chain within PDB file of desired conformation (Option 1 and 2)
-  11. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html) (Option 1 and 3)
-  12. Chain within PDB file of alternative conformation (Option 1 and 3)
+  2.  Phi-Psi cutoff, 0.01 is recommended
+  3.  Number of cores
+  4.  Path to file containing trans-proline phi-psi angles
+  5.  Path to PyMOL script that mutates positions
+  6.  Output prefix, for instance "OUTPUT"
+  7.  Option (either 1, 2, or 3)
+  8.  PDB file of target conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html) (Option 1 and 2)
+  9. Chain within PDB file of desired conformation (Option 1 and 2)
+  10. PDB file of alternative conformation (https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html) (Option 1 and 3)
+  11. Chain within PDB file of alternative conformation (Option 1 and 3)
 
 
 ### Execute in the command line
