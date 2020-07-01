@@ -43,7 +43,7 @@ Several input arguments are necessary to run the CRISPro.
 
 
 ### Execute in the command line
-R --vanilla < CRISPro_v.1.1-6.R 1.5 10 0.01 8 rama8000-transpro.data mutate.py OUTPUT 1 target.pdb A alternative.pdb A
+R --vanilla < CRISPro_v.1.1-6.R 1.5 0.01 8 rama8000-transpro.data mutate.py OUTPUT 1 target.pdb A alternative.pdb A
 
 
 ### Result
