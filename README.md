@@ -18,12 +18,13 @@ CRISPro is best installed in CONDA environment using the following procedure:
 - Create CRISPro environment in command line: conda create --name CRISPro
 - Activate CRISPro environment in command line: source activate CRISPro
 - Install require packages by running the following in command line:
-  - conda install -c r r r=3.4.1
-  - conda install -c bioconda r-bio3d
+  - conda install -c r r
+  - conda install -c conda-forge r-bio3d
   - conda install -c r r-foreach
   - conda install -c r r-doparallel
   - conda install -c salilab dssp
   - conda install -c samoturk pymol
+  
 
 ## Run 
 CRISPro can be run in the command line
