@@ -22,8 +22,9 @@ CRISPro is best installed in CONDA environment using the following procedure:
   - conda install -c conda-forge r-bio3d
   - conda install -c r r-foreach
   - conda install -c r r-doparallel
-  - conda install -c salilab dssp
   - conda install -c samoturk pymol
+
+  - sudo apt-get install dssp 
   
 
 ## Run 
