@@ -16,7 +16,7 @@ CRISPro is best installed in CONDA environment using the following procedure:
     (Add conda path to ~/.bashrc)
   - Open a new terminal window or source your bash with: source ~/.bashrc
 - Create CRISPro environment in command line: conda create --name CRISPro
-- Activate CRISPro environment in command line: source activate CRISPro
+- Activate CRISPro environment in command line: conda activate CRISPro
 - Install require packages by running the following in command line:
   - conda install -c r r
   - conda install -c conda-forge r-bio3d
